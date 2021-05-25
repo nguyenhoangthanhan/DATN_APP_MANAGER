@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/colorGrayeee"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nameNewFood"
+                android:textColor="@color/colorGray222"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Têm món mới:" />
+
+            <EditText
+                android:layout_marginStart="@dimen/_8sdp"
+                android:textColor="@color/colorGray444"
+                android:id="@+id/edtNameNewFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Nhập tên món ăn mới..."
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/colorGray222"
+                android:id="@+id/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trạng thái:" />
+
+            <RadioGroup
+                android:id="@+id/rbGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:textColor="@color/colorGray444">
+
+                <RadioButton
+                    android:id="@+id/rbAvailable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Có sẵn" />
+
+                <RadioButton
+                    android:id="@+id/rbUnavailable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Không có sẵn" />
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/colorGray222"
+                android:id="@+id/txtPriceNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá:" />
+
+            <EditText
+                android:layout_marginStart="@dimen/_8sdp"
+                android:textColor="@color/colorGray444"
+                android:id="@+id/edtPriceNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Nhập giá..." />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/colorGray222"
+                android:id="@+id/txtPromotionNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khuyến mãi:" />
+
+            <EditText
+                android:layout_marginStart="@dimen/_8sdp"
+                android:id="@+id/edtPromotionNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Khuyến mãi..." />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableRow
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnAcceptAddFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnBackNotify"
+            android:layout_marginLeft="15dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+</LinearLayout>
