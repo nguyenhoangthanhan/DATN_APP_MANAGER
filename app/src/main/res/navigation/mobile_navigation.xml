@@ -3,13 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
-
-    <fragment
-        android:id="@+id/nav_home"
-        android:name="com.andeptrai.datn_restaurant_app_manager.Activity.ui.notify.NotifyFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_notify" />
+    app:startDestination="@+id/nav_food">
 
     <fragment
         android:id="@+id/nav_food"
@@ -23,14 +17,20 @@
         tools:layout="@layout/fragment_notify" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.andeptrai.datn_restaurant_app_manager.Activity.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_notify"
+        android:name="com.andeptrai.datn_restaurant_app_manager.Activity.ui.notify.NotifyFragment"
+        android:label="@string/menu_notify"
+        tools:layout="@layout/fragment_notify" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.andeptrai.datn_restaurant_app_manager.Activity.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_bill_delivery"
+        android:name="com.andeptrai.datn_restaurant_app_manager.Activity.ui.bill.delivery.BillDeliveryFragment"
+        android:label="@string/menu_bill_delivery"
+        tools:layout="@layout/fragment_bill_delivery" />
+
+    <fragment
+        android:id="@+id/nav_bill_reservation"
+        android:name="com.andeptrai.datn_restaurant_app_manager.Activity.ui.bill.reservation.BillReservationFragment"
+        android:label="@string/menu_bill_reservation"
+        tools:layout="@layout/fragment_bill_reservation" />
 </navigation>

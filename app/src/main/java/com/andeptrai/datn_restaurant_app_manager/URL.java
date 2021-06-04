@@ -31,4 +31,14 @@ public class URL {
 
     //delete notify
     public static String urlDeleteNotify = "http://"+ IP.ip+"/DoAnTotNghiep/androidwebservice/deleteNotify.php";
+
+    //get all bill delivery by id restaurant
+    public static String urlGetAllBillDeliveryByIdRes = "http://"+ IP.ip+"/DoAnTotNghiep/androidwebservice/getAllBillDeliveryByIdRes.php";
+
+    //update status confirm bill delivery
+    public static String urlUpdateStatusConfirmBillDelivery = "http://"+ IP.ip+"/DoAnTotNghiep/androidwebservice/updateStatusConfirmBillDelivery.php";
+
+    //update bil delivery by id bill
+    public static String urlUpdateBillDeliveryByIdBill = "http://"+ IP.ip+"/DoAnTotNghiep/androidwebservice/updateBillDeliveryByIdBill.php";
+
 }
