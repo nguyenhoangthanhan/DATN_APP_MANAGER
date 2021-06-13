@@ -41,4 +41,21 @@ public class URL {
     //update bil delivery by id bill
     public static String urlUpdateBillDeliveryByIdBill = "http://"+ IP.ip+"/DoAnTotNghiep/androidwebservice/updateBillDeliveryByIdBill.php";
 
+    //url get all kind
+    public static String urlGetAllKind = "http://"+ IP.ip+"/DoAnTotNghiep/androidwebservice/getAllKind.php";
+
+    //url update restaurant by id res
+    public static String urlUpdateResByIdRes = "http://"+ IP.ip+"/DoAnTotNghiep/androidwebservice/updateResByIdRes.php";
+
+    //url update review point
+    public static String urlGetReviewPointByIdRes = "http://"+ IP.ip+"/DoAnTotNghiep/androidwebservice/getReviewPointByIdRes.php";
+
+    //get all bill reservation by id user
+    public static String urlGetAllBillReservationByIdRes = "http://"+ IP.ip+"/DoAnTotNghiep/androidwebservice/getAllBillReservationByIdRes.php";
+
+    //update bill reservation by id bill
+    public static String urlUpdateBillReservationByIdBillClient = "http://"+ IP.ip+"/DoAnTotNghiep/androidwebservice/updateBillReservationByIdBillClient.php";
+
+    //get all food by id restaurant
+    public static String urlCreateNewBillReservation = "http://"+ IP.ip+"/DoAnTotNghiep/androidwebservice/createNewBillReservation.php";
 }

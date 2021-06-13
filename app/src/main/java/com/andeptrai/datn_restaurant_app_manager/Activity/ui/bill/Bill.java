@@ -19,6 +19,14 @@ public class Bill implements Serializable {
         this.statusConfirm = statusConfirm;
     }
 
+    public Bill(String idBill, int idUserOrder, String idRestaurant, String timeCreateBill, int statusConfirm) {
+        this.idBill = idBill;
+        this.idUserOrder = idUserOrder;
+        this.idRestaurant = idRestaurant;
+        this.timeCreateBill = timeCreateBill;
+        this.statusConfirm = statusConfirm;
+    }
+
     public int getStatusConfirm() {
         return statusConfirm;
     }

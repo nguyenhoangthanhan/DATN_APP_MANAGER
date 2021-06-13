@@ -39,7 +39,7 @@ public class HomeActivity extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
-        mAppBarConfiguration = new AppBarConfiguration.Builder(R.id.nav_food, R.id.nav_cmt,
+        mAppBarConfiguration = new AppBarConfiguration.Builder(R.id.nav_info_restaurant, R.id.nav_food, R.id.nav_cmt,
                 R.id.nav_notify, R.id.nav_bill_delivery, R.id.nav_bill_reservation)
                 .setDrawerLayout(drawer)
                 .build();

@@ -47,11 +47,25 @@
     <string name="lout_out">Đăng xuất</string>
     <string name="setting_account">Thiết lập tài khoản </string>
     <string name="info_contact">Thông tin liên hệ</string>
+    <string name="info_res">Thông tin nhà hàng</string>
+    <string name="id_res">Mã nhà hàng:</string>
+    <string name="name_restaurant">Tên nhà hàng:</string>
+    <string name="phone2">SĐT:</string>
+    <string name="password2">Mật khẩu:</string>
+    <string name="address_2">Địa chỉ:</string>
+    <string name="review_point">Diểm đánh giá:</string>
+    <string name="update">"Cập nhật"</string>
+    <string name="change_service">"Thay đổi dịch vụ"</string>
+    <string name="service">Dịch vụ:</string>
+    <string name="service_res1">Đặt chỗ</string>
+    <string name="service_res2">Giao hàng</string>
+    <string name="service_res3">Đặt chỗ, Giao hàng</string>
     <string name="accept_yet">Chưa xác nhận</string>
     <string name="accept_bill">Xác nhận hóa đơn</string>
     <string name="reject_bill">Từ chối hóa đơn</string>
     <string name="content_accept_bill">Bạn xác định sẽ chấp nhận đơn hàng này?</string>
     <string name="content_reject_bill">Bạn xác định sẽ từ chối đơn hàng này?</string>
+    <string name="change_bill_reservation">"Thay đổi hóa đơn đặt chỗ"</string>
     <string name="accept">Xác nhận</string>
     <string name="reject">Từ chối</string>
     <string name="accepted">Đã xác nhận</string>
@@ -95,4 +109,7 @@
 
     //fragment bill delivery
     <string name="add_new_bill_delivery">Thêm đơn giao hàng</string>
+
+    //fragment notify
+    <string name="add_new_bill_reservation">Thêm đơn đặt chỗ</string>
 </resources>

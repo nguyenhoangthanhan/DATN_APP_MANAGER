@@ -13,4 +13,7 @@ public class CODE {
 
     //length of id new notify
     public static final int CREATE_NOTIFY_NEW = 241;
+
+    //length of id new food
+    public static final int CREATE_NEW_BILL = 249;
 }

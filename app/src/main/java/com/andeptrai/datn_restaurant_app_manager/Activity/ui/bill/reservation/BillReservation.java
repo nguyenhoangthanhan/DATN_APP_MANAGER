@@ -23,6 +23,16 @@ public class BillReservation extends Bill {
         this.notes = notes;
     }
 
+    public BillReservation(String idBill, int idUserOrder, String idRestaurant, String timeCreateBill
+            , String datetimeGo, int adultsNumber, int childrenNumber, String notes, int statusConfirm) {
+        super(idBill, idUserOrder, idRestaurant, timeCreateBill, statusConfirm);
+        this.datetimeGo = datetimeGo;
+        this.adultsNumber = adultsNumber;
+        this.childrenNumber = childrenNumber;
+        this.notes = notes;
+    }
+
+
     public String getDatetimeGo() {
         return datetimeGo;
     }

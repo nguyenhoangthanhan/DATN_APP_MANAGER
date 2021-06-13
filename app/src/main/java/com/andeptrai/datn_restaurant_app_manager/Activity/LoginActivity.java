@@ -91,8 +91,9 @@ public class LoginActivity extends AppCompatActivity {
                         InfoRestaurantCurr.currentPhone = jObject.getString("Phone_restaurant");
                         InfoRestaurantCurr.currentPwd = jObject.getString("Password");
                         InfoRestaurantCurr.currentAddress = jObject.getString("Address_restaurant");
-                        InfoRestaurantCurr.currentRPoint = jObject.getString("Review_point");
+                        InfoRestaurantCurr.currentRPoint = jObject.getDouble("Review_point");
                         InfoRestaurantCurr.currentStatus = jObject.getInt("Status_restaurant");
+                        InfoRestaurantCurr.listKind = jObject.getString("List_kind");
 
 //                        Toast.makeText(LoginActivity.this, "Login thành công", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
